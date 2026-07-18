@@ -1,0 +1,51 @@
+.vk-button {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: var(--vk-space-2);
+
+    padding: .75rem 1.25rem;
+
+    border-radius: var(--vk-radius-md);
+
+    border: none;
+
+    cursor: pointer;
+
+    transition: var(--vk-transition-base);
+
+    font-weight: 600;
+
+    background: var(--vk-primary);
+
+    color: white;
+
+}
+
+.vk-button:hover{
+
+    transform: translateY(-2px);
+
+}
+
+.vk-button:active{
+
+    transform: scale(.98);
+
+}
+
+.vk-button[data-variant="primary"]{
+
+    background: var(--vk-primary);
+
+}
+
+.vk-button[data-variant="danger"]{
+
+    background: var(--vk-danger);
+
+}
