@@ -1,0 +1,14 @@
+:host {
+  display: block;
+}
+
+.vk-main-layout {
+  display: flex;
+  min-height: calc(100vh - var(--vk-navbar-height, 64px));
+}
+
+.vk-main-layout__content {
+  flex: 1;
+  padding: var(--vk-space-6, 2rem);
+  background: var(--vk-bg-primary, #0f172a);
+}

@@ -1,23 +1,31 @@
 import {
   ChangeDetectionStrategy,
   Component,
-  input,
+  input
 } from '@angular/core';
-import { ButtonSize, ButtonVariant } from './vk-button.types';
+
+import {
+  ButtonSize,
+  ButtonVariant
+} from './vk-button.types';
 
 @Component({
   selector: 'vk-button',
-  templateUrl: 'vk-button.html',
-  styleUrl: 'vk-button.scss',
+  standalone: true,
+  templateUrl: './vk-button.html',
+  styleUrl: './vk-button.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class VkButton {
-  variant = input<ButtonVariant>('primary');
+export class Button {
 
-  size = input<ButtonSize>('md');
+  readonly variant = input<ButtonVariant>('primary');
 
-  disabled = input(false);
+  readonly size = input<ButtonSize>('md');
 
-  loading = input(false);
+  readonly disabled = input(false);
 
-  fullWidth = input(false);
+  readonly fullWidth = input(false);
+
+  readonly loading = input(false);
+
 }

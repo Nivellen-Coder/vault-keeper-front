@@ -16,14 +16,11 @@
 
     cursor: pointer;
 
-    transition: var(--vk-transition-base);
+    transition: .2s ease;
+
+    font: inherit;
 
     font-weight: 600;
-
-    background: var(--vk-primary);
-
-    color: white;
-
 }
 
 .vk-button:hover{
@@ -48,4 +45,21 @@
 
     background: var(--vk-danger);
 
+}
+
+.vk-button[data-variant="outline"] {
+  background: transparent;
+  border: 1px solid var(--vk-border);
+}
+
+.vk-button[data-size="sm"] {
+  height: 36px;
+}
+
+.vk-button[data-size="md"] {
+  height: 44px;
+}
+
+.vk-button[data-size="lg"] {
+  height: 52px;
 }

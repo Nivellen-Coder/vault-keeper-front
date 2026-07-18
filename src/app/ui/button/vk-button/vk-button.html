@@ -1,8 +1,11 @@
 <button
-    class="vk-button"
-    [attr.data-variant]="variant()"
-    [attr.data-size]="size()">
-
-    <ng-content />
-
+  class="vk-button"
+  type="button"
+  [disabled]="disabled() || loading()"
+  [attr.data-variant]="variant()"
+  [attr.data-size]="size()"
+  [attr.data-full-width]="fullWidth()"
+  [attr.aria-busy]="loading()"
+>
+  <ng-content />
 </button>

@@ -1,39 +1,27 @@
 :root {
+  /* Backgrounds */
+  --vk-bg-primary: #0f172a;
+  --vk-bg-secondary: #111827;
+  --vk-bg-tertiary: #1f2937;
 
-    /* Background */
+  /* Surfaces */
+  --vk-surface: #1e293b;
+  --vk-surface-hover: #334155;
 
-    --vk-bg-primary: #090B12;
-    --vk-bg-secondary: #121725;
-    --vk-bg-tertiary: #1B2133;
+  /* Borders */
+  --vk-border: #334155;
 
-    /* Surface */
+  /* Text */
+  --vk-text-primary: #f8fafc;
+  --vk-text-secondary: #cbd5e1;
+  --vk-text-muted: #94a3b8;
 
-    --vk-surface: #161B2B;
-    --vk-surface-hover: #202843;
+  /* Brand */
+  --vk-primary: #7c3aed;
+  --vk-primary-hover: #8b5cf6;
 
-    /* Borders */
-
-    --vk-border: #2B3552;
-
-    /* Typography */
-
-    --vk-text-primary: #F8FAFC;
-    --vk-text-secondary: #A6B2D2;
-    --vk-text-muted: #6E7897;
-
-    /* Brand */
-
-    --vk-primary: #8B5CF6;
-    --vk-primary-hover: #A855F7;
-
-    --vk-secondary: #3B82F6;
-
-    --vk-cyan: #22D3EE;
-
-    /* Status */
-
-    --vk-success: #34D399;
-    --vk-warning: #FBBF24;
-    --vk-danger: #EF4444;
-
+  /* Feedback */
+  --vk-success: #22c55e;
+  --vk-warning: #f59e0b;
+  --vk-danger: #ef4444;
 }
