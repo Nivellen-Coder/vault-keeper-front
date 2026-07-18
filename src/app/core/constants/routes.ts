@@ -6,4 +6,6 @@ export const APP_ROUTES = {
   COLLECTIONS: 'collections',
   PROFILE: 'profile',
   SETTINGS: 'settings',
+  LOGIN: 'login',
+  REGISTER: 'register',
 } as const;

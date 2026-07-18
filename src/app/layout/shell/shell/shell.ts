@@ -1,12 +1,12 @@
-import { ChangeDetectionStrategy, Component, type OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { MainLayout } from '../../layouts/main-layout/main-layout'
 
 @Component({
-  selector: 'app-shell',
-  imports: [],
-  template: `<p>shell works!</p>`,
-  styleUrl: './shell.css',
+  selector: 'vk-shell',
+  standalone: true,
+  imports: [MainLayout],
+  templateUrl: './shell.html',
+  styleUrl: './shell.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class Shell implements OnInit {
-  ngOnInit(): void {}
-}
+export class Shell {}
