@@ -1,19 +1,15 @@
-<div class="vk-shell">
+<vk-navbar />
 
-    <app-navbar />
+<div class="vk-shell__body">
 
-    <div class="vk-shell__body">
+    <vk-sidebar />
 
-        <app-sidebar />
+    <main>
 
-        <main class="vk-shell__content">
+        <router-outlet />
 
-            <router-outlet />
-
-        </main>
-
-    </div>
-
-    <app-footer />
+    </main>
 
 </div>
+
+<vk-footer />
