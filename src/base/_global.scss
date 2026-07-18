@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--vk-bg-primary);
+  color: var(--vk-text-primary);
+
+  margin: 0;
+  padding: 0;
+
+  min-height: 100vh;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
